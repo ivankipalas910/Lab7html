@@ -1,0 +1,16 @@
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+td input {
+  width: 90%;
+  padding: 4px;
+  font-size: 14px;
+}
