@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №8</title>
+
+    
+    <link rel="stylesheet" href="CSS/style.css">
+  
+    <link rel="stylesheet" href="CSS/lab3.css">
+</head>
+<body>
+
+<header>
+    <h1>Лабораторна робота №8</h1>
+    <p><strong>Студент:</strong> Кіпалас Іван<br>
+    <strong>Група:</strong> АнД-32<br>
+    <strong>Варіант:</strong> 5</p>
+<nav>
+    <a href="index.html" class="back"> На головну</a>
+</nav>
+
+</header>
+
+<main>
+    <section class="task">
+        <h2>Опис завдання</h2>
+        <p>
+            Реалізувати ієрархію класів.<br>
+            <strong>Базовий клас:</strong> Поле (назва, r — вага насіння на 1 м²).<br>
+            Метод: обчислення врожаю з одиниці площі k * r.<br><br>
+
+            <strong>Нащадок:</strong> Картопляне поле (додатково поле S — площа).<br>
+            Перевизначити конструктор та метод — знайти повний урожай з усього поля.
+        </p>
+    </section>
+
+    <section id="calc">
+        <h2>Розрахунок</h2>
+
+        <label>Назва поля:</label>
+        <input type="text" id="name">
+
+        <label>r – вага насіння на 1 м²:</label>
+        <input type="number" id="r">
+
+        <label>k – коефіцієнт врожайності:</label>
+        <input type="number" id="k">
+
+        <label>S – площа поля (м²):</label>
+        <input type="number" id="S">
+
+        <button id="calcBtn">Обчислити урожай</button>
+
+        <p id="result"></p>
+    </section>
+</main>
+
+<script src="JS/lab3.js"></script>
+
+</body>
+</html>
